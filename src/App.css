@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #b1e1e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #3700ff;
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #b1e1e9;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin-top: 0;
+  margin-bottom: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.contact-details p {
+  margin-bottom: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: auto;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 10px;
+  margin: auto;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  margin: auto;
+  border: 4px solid black;
+}
+
+.clear-button:hover {
+  color: red;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.card {
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.card-title {
+  margin-top: 5px;
+}
+
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 100px;
+    height: 30px;
+  }
+}
